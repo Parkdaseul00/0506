@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>포폴..</title>
+
+<style>
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+ul,ol,li {list-style: none; margin: 0; padding: 0;}
+a {text-decoration: none; color: #666;}
+
+
+
+#wrap {width: 100%; height: 80000px; background-color: green; margin: 0 auto; display: flex; flex-wrap: wrap; flex-direction: column; text-align: center;}
+
+header {width:100%; height: 43px; background-color: yellow; display: flex; flex-flow: row wrap ; justify-content: space-between;  }
+
+.nav {width: 300px; height: 35px; background-color: red;}
+.nav > ul > li {float: left; margin:8px; font-size: 13px;}
+.nav > ul > li > a > img {width:10px; height: 10px; margin: 0 0 0 5px; }
+
+
+.f_logo {width: 210px; height: 120px; background-color: greenyellow;}
+.sns {width: 400px; height: 35px; background-color: skyblue;}
+.sns > ul > li {float: left; margin:8px; font-size: 13px;}
+.sns > ul > li > a > img {width:10px; height: 10px; margin: 0 5px 0 0px; }
+
+
+
+
+slider {width: 100%; height: 860px; background-color: blue;}
+slider > img {width: 100%; height: 860px; margin: 0; padding: 0;}
+.s_textbox {width: 400px; height: 500px; position: relative; bottom:600px; left: 500px; color: #eee; display: flex; flex-direction: column; align-items: center; }
+.s_textbox > p {font-size: 12px;}
+.s_textbox > span {font-size: 200px;}
+.btn1 {border:0; border-radius: 30px; padding: 10px 40px;  background-color:#a4b180; }
+
+
+article {width: 100%; height: 465px; background-color: violet;}
+
+#services {width:100%; heigth:860px; background-color: grey; }
+.s_imgbox {width:369px; height: 390px; background-color: green;}
+
+
+#gallery {width: 100%; height: 900px; background-color: purple;}
+#g_imgbox {width: 625px; height: 415px; background-color: red;}
+.gallery_tip {width: 100%; height: 290px; background-color: royalblue;}
+
+
+#team {width: 100% ; height: 815px; background-color: tomato;}
+.t_imgbox {width: 360px; height: 360px; background-color: deepskyblue;}
+
+
+#title {width: 100%; height: 430px; background-color: yellow;}
+#t_textbox {width: 310px; height: 370px; background-color: black; margin: 5px;}
+
+#review {width: 100%; height: 450px; background-color: greenyellow;}
+.r_textbox {width: 400px; height: 400px; background-color: darkred;}
+
+
+#social {width: 100%; height: 450px; background-color:beige;}
+
+
+#signup {width: 100%; height: 600px; background-color: whitesmoke;}
+.position {width: 370px; height: 360px; background-color: green;}
+.message {width: 780px; height: 360px; background-color: red;}
+
+
+#sns {width: 100%; height: 200px; background-color: rebeccapurple;}
+
+
+footer {width: 100%; height: 650px; background-color: tomato;}
+.wnth {width: 540px; height: 130px; background-color: gray;}
+.e_logo {width: 275px; height: 170px; background-color: whitesmoke;} 
+
+
+
+</style>
+</head>
+<body>
+
+<div id="wrap">
+
+<header>
+	<div class="nav">
+		<ul>
+			<li><a href="#">HOME<img src="img/v.png" alt="화살표"></a></li>
+			<li><a href="#">PAGES<img src="img/v.png" alt="화살표"></a></li>
+			<li><a href="#">PORTFPLIO<img src="img/v.png" alt="화살표"></a></li>
+			<li><a href="#">SHOP<img src="img/v.png" alt="화살표"></a></li>
+			<li><a href="#">BLOG<img src="img/v.png" alt="화살표"></a></li>
+
+		</ul>
+	</div>
+
+	
+	<div class="f_logo">
+		<img src="img/logo.png" alt="로고1">
+	</div>
+	
+
+	<div class="sns">
+		<ul>
+			<li><a href="#"><img src="img/fe.png" alt="페이스북로고">| FACEBOOK</a></li>
+			<li><a href="#"><img src="img/tw.png" alt="트위터로고">| TWITTER</a></li>
+			<li><a href="#"><img src="img/in.png" alt="인스타로고">| INSRAGRAM</a></li>
+			<li><a href="#"><img src="img/vi.png" alt="vimeo로고">| VIMEO</a></li>
+		</ul>	
+	</div>
+	
+</header>
+
+
+<slider>
+	<img src="img/1.jpg" alt="배경1">
+
+	<div class="s_textbox"> 
+		<p>GREETINGS, WE ARE</p>
+	    <span>FORESTER</span>
+	    <h5>
+	    	Unordinary digital agency crafting sophisticated and
+            eccentric stuff that will leave you speechless.
+        <h5>
+        <button class="btn1">EXPLORE NOW</button>
+
+	</div>
+
+</slider>
+
+
+<article>out story</article>
+
+
+
+<section id="services">
+
+	<div class="s_imgbox"></div>
+	<div class="s_imgbox"></div>
+	<div class="s_imgbox"></div>
+</section>
+
+
+<div id="gallery">
+	<div id="g_imgbox"></div>
+	<div id="g_imgbox"></div>
+	<div id="g_imgbox"></div>
+	<div id="g_imgbox"></div>
+	<div id="g_imgbox"></div>
+	<div id="g_imgbox"></div>
+
+	<div class="gallery_tip"></div>
+</div>
+
+
+<div id="team">
+	<div class="t_imgbox"></div>
+	<div class="t_imgbox"></div>
+	<div class="t_imgbox"></div>
+</div>
+
+
+<div id="title">
+	<div id="t_textbox"></div>
+	<div id="t_textbox"></div>
+	<div id="t_textbox"></div>
+	<div id="t_textbox"></div>
+</div>
+
+
+<div id="review">
+	<div class="r_textbox"></div>
+</div>
+
+
+<div id="social"></div>
+
+
+<div id="signup">
+	<div class="position"></div>
+	<div class="message"></div>
+</div>
+
+<div id="sns"></div>
+
+
+<footer>
+	<div class="wnth"></div>
+	<div class="e_logo"></div>
+</footer>
+
+
+</div>
+
+</body>
+</html>
